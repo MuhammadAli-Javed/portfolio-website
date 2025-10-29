@@ -1,0 +1,62 @@
+/* Styling for the whole site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header section */
+header {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+/* for Section spacing and the layout */
+section {
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* for the Section headings */
+h2 {
+  color: #0077b6;
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 5px;
+}
+
+/* Unordered lists */
+ul {
+  list-style-type: square;
+}
+
+/* Individual project cards */
+.project {
+  background: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Links */
+a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
